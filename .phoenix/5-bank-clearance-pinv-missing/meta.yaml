@@ -24,7 +24,7 @@ repos:
     pr_number: 6
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776719688.573649"
 approvals:
   plan:
     approved: false
