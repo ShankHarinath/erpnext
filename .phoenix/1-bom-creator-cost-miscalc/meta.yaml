@@ -1,0 +1,48 @@
+issue:
+  url: https://github.com/ShankHarinath/erpnext/issues/1
+  number: 1
+  title: "BOM Creator Miscalculates the Raw Material Cost in sub-assembly and final product"
+  author: "ShankHarinath"
+  created_at: "2026-04-20T20:03:40Z"
+  home_repo: "ShankHarinath/erpnext"
+
+slug: bom-creator-cost-miscalc
+bug_dir: 1-bom-creator-cost-miscalc
+branch: phoenix/1-bom-creator-cost-miscalc
+
+status: triaged
+
+repos:
+  - repo: ShankHarinath/erpnext
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-worktrees/erpnext-1-bom-creator-cost-miscalc
+    pr_url: https://github.com/ShankHarinath/erpnext/pull/2
+    pr_number: 2
+    track_id: null
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+
+approvals:
+  triage:
+    approved: false
+    by: null
+    at: null
+    pr_comment_url: null
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+
+followups: []
+
+revisions:
+  triage: []
+  plan: []
+  implement: []
+
+created_at: "2026-04-21T00:00:00Z"
+updated_at: "2026-04-21T00:00:00Z"
