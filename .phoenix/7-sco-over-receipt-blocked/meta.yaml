@@ -19,7 +19,7 @@ repos:
 
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776721914.826709"
 
 approvals:
   triage:
