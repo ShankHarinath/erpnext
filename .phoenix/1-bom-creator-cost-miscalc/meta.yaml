@@ -22,7 +22,7 @@ repos:
 
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776716149.648619"
 
 approvals:
   triage:
@@ -45,4 +45,4 @@ revisions:
   implement: []
 
 created_at: "2026-04-21T00:00:00Z"
-updated_at: "2026-04-21T00:00:00Z"
+updated_at: "2026-04-21T00:05:49Z"
