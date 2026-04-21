@@ -1,0 +1,42 @@
+issue:
+  number: 23
+  url: https://github.com/ShankHarinath/erpnext/issues/23
+  title: "Wrong EAN naming"
+  reporter: ShankHarinath
+  home_repo: ShankHarinath/erpnext
+  created_at: "2026-04-21T10:05:43Z"
+branch: phoenix/23-ean-12-mislabel
+bug_dir: 23-ean-12-mislabel
+status: triaged
+classification:
+  class: bug
+  confidence: 0.95
+scout:
+  confidence: 0.95
+  risk: LOW
+  recommended_next_step: proceed
+  leak_signals: none
+repos:
+  - repo: ShankHarinath/erpnext
+    role: primary
+    worktree: ../phoenix-worktrees/erpnext-23-ean-12-mislabel
+    pr_number: 24
+    pr_url: https://github.com/ShankHarinath/erpnext/pull/24
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan: null
+  implement: null
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T10:15:00Z"
+      trigger: ShankHarinath
+      scout_confidence: 0.95
+followups: []
+created_at: "2026-04-21T10:15:00Z"
+updated_at: "2026-04-21T10:15:00Z"
