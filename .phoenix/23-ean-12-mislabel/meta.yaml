@@ -24,7 +24,7 @@ repos:
     pr_url: https://github.com/ShankHarinath/erpnext/pull/24
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776766862.745799"
 approvals:
   triage:
     approved: false
