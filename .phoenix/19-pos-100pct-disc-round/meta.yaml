@@ -1,0 +1,41 @@
+issue:
+  number: 19
+  url: https://github.com/ShankHarinath/erpnext/issues/19
+  title: "POS Invoice with 100% Discount Fails Due to Decimal Rounding Error (0.01)"
+  home_repo: ShankHarinath/erpnext
+  reporter: ShankHarinath
+  created_at: "2026-04-21T09:22:22Z"
+  classification:
+    class: bug
+    confidence: 0.95
+branch: phoenix/19-pos-100pct-disc-round
+bug_dir: 19-pos-100pct-disc-round
+repos:
+  - repo: ShankHarinath/erpnext
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-worktrees/erpnext-19-pos-100pct-disc-round
+    pr_url: https://github.com/ShankHarinath/erpnext/pull/20
+    pr_number: 20
+scout:
+  confidence: 0.82
+  recommended_next_step: proceed
+  affected_repos:
+    - ShankHarinath/erpnext
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan: null
+  implement: null
+status: triaged
+created_at: "2026-04-21T09:42:52Z"
+updated_at: "2026-04-21T09:42:52Z"
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T09:42:52Z"
+      trigger: "ShankHarinath"
+followups: []
