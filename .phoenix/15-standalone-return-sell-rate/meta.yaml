@@ -23,7 +23,7 @@ scout:
     - ShankHarinath/erpnext
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776759646.831939"
 approvals:
   triage:
     approved: false
@@ -32,7 +32,7 @@ approvals:
   implement: null
 status: triaged
 created_at: "2026-04-21T08:19:57Z"
-updated_at: "2026-04-21T08:19:57Z"
+updated_at: "2026-04-21T08:20:46Z"
 revisions:
   triage:
     - rev: 1
