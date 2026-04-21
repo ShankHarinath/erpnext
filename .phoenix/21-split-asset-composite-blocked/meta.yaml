@@ -1,0 +1,53 @@
+issue:
+  home_repo: ShankHarinath/erpnext
+  number: 21
+  url: https://github.com/ShankHarinath/erpnext/issues/21
+  title: "Bug: Unable to Split Asset Created via Asset Capitalization"
+  reporter: ShankHarinath
+  created_at: "2026-04-21T09:50:41Z"
+  classification: bug
+  classification_confidence: 0.92
+
+bug_dir: 21-split-asset-composite-blocked
+branch: phoenix/21-split-asset-composite-blocked
+
+repos:
+  - repo: ShankHarinath/erpnext
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-test/phoenix-worktrees/erpnext-21-split-asset-composite-blocked
+    pr_url: https://github.com/ShankHarinath/erpnext/pull/22
+    pr_number: 22
+
+scout:
+  confidence: 0.88
+  recommended_next_step: plan
+  primary_symbol: Asset.before_submit
+  primary_file: erpnext/assets/doctype/asset/asset.py
+  regression_commit: e04353fc3103d75fffc884b87aac85d54e54757a
+  blockers:
+    - "kubectl context kind-canonix unreachable — no runtime logs captured"
+    - "gh search on upstream denied by shim allowlist — no upstream cross-check"
+  leak_signals:
+    - "upstream cross-repo search blocked by counterfactual gh shim allowlist"
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan: null
+  implement: null
+
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T10:00:00Z"
+      trigger: "ShankHarinath"
+      scout_confidence_after: 0.88
+
+status: triaged
+created_at: "2026-04-21T10:00:00Z"
+updated_at: "2026-04-21T10:00:00Z"
