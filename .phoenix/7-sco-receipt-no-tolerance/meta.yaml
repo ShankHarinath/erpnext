@@ -28,7 +28,8 @@ repos:
     pr_url: https://github.com/ShankHarinath/erpnext/pull/27
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776945367.853689"
+  thread_url: https://canonix.slack.com/archives/C0ATH23P6PQ/p1776945367853689
 approvals:
   triage:
     approved: false
@@ -43,4 +44,4 @@ revisions:
       trigger: initial
 followups: []
 created_at: "2026-04-23T11:55:15Z"
-updated_at: "2026-04-23T11:55:15Z"
+updated_at: "2026-04-23T11:56:07Z"
