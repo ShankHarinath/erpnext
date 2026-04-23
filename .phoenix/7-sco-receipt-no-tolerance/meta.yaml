@@ -1,0 +1,46 @@
+bug_dir: 7-sco-receipt-no-tolerance
+issue:
+  number: 7
+  url: https://github.com/ShankHarinath/erpnext/issues/7
+  title: "Issue with Subcontracting Module - Excess Issue-Receipt Tolerance Not working as expected"
+  reporter: ShankHarinath
+  created_at: "2026-04-20T21:19:28Z"
+  home_repo: ShankHarinath/erpnext
+classification:
+  class: bug
+  confidence: 0.90
+scout:
+  confidence: 0.90
+  root_cause_confidence: 0.92
+  fix_direction_confidence: 0.88
+  primary_causal_symbol: "erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:SubcontractingOrder.update_status"
+  fix_shape_recommended: idiomatic
+  hypotheses_count: 3
+  hypotheses_confirmed: 3
+  recommended_next_step: proceed
+branch: phoenix/7-sco-receipt-no-tolerance
+base_branch: develop
+repos:
+  - repo: ShankHarinath/erpnext
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-test/phoenix-worktrees/erpnext-7-sco-receipt-no-tolerance
+    pr_number: 27
+    pr_url: https://github.com/ShankHarinath/erpnext/pull/27
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan: null
+  implement: null
+status: triaged
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-23T11:55:15Z"
+      trigger: initial
+followups: []
+created_at: "2026-04-23T11:55:15Z"
+updated_at: "2026-04-23T11:55:15Z"
