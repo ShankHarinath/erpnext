@@ -1,0 +1,49 @@
+issue:
+  url: https://github.com/ShankHarinath/erpnext/issues/11
+  number: 11
+  title: "In Salary Slip, negative payment days issue for Left Employees."
+  author: "ShankHarinath"
+  created_at: "2026-04-21T07:07:44Z"
+  home_repo: "ShankHarinath/erpnext"
+
+slug: salary-slip-left-emp-neg-days
+bug_dir: 11-salary-slip-left-emp-neg-days
+branch: phoenix/11-salary-slip-left-emp-neg-days
+
+status: triaged
+
+repos:
+  - repo: ShankHarinath/erpnext
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-test/phoenix-worktrees/erpnext-11-salary-slip-left-emp-neg-days
+    pr_url: https://github.com/ShankHarinath/erpnext/pull/26
+    pr_number: 26
+    track_id: null
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+
+approvals:
+  triage:
+    approved: false
+    by: null
+    at: null
+    pr_comment_url: null
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+
+followups: []
+
+revisions:
+  triage: []
+  plan: []
+  implement: []
+
+created_at: "2026-04-23T10:48:30Z"
+updated_at: "2026-04-23T10:48:30Z"
+schema_version: 2
