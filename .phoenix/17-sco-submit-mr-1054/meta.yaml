@@ -10,7 +10,7 @@ issue:
 home_repo: ShankHarinath/erpnext
 branch: phoenix/17-sco-submit-mr-1054
 created_at: "2026-04-23T12:37:59Z"
-updated_at: "2026-04-23T12:37:59Z"
+updated_at: "2026-04-23T12:38:47Z"
 status: triaged
 classification:
   class: bug
@@ -34,7 +34,8 @@ repos:
     pr_url: https://github.com/ShankHarinath/erpnext/pull/28
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776947927.521029"
+  permalink: "https://canonix.slack.com/archives/C0ATH23P6PQ/p1776947927521029"
 approvals:
   triage:
     approved: false
